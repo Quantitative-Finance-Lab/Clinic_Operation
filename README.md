@@ -1,7 +1,7 @@
-# **Clinic Survival Dataset**
+# **Institution Operation Dataset**
 
 ## **Overview**
-The **Clinic Operation Dataset** provides comprehensive data on the operational patterns of primary healthcare institutions in South Korea. It is publicly available for download on **[Zenodo](https://zenodo.org/records/15080544)** and **[GitHub](https://github.com/Quantitative-Finance-Lab/Clinic_Operation)** in **CSV (`Clinic_survival.csv`)** formats.
+The **Institution Operation Dataset** provides comprehensive data on the operational patterns of primary healthcare institutions in South Korea. It is publicly available for download on **[Zenodo](https://zenodo.org/records/15080544)** and **[GitHub](https://github.com/Quantitative-Finance-Lab/Institution_Operation)** in **XLSX (`Institution_operation.XLSX`)** formats.
 
 This dataset contains **44,915 observations** and **21 variables**, making it a valuable resource for researchers studying clinic survival, healthcare accessibility, and regional healthcare disparities. To enhance accessibility and citation, the dataset is assigned a **DOI**: [`10.5281/zenodo.15080544`](https://zenodo.org/records/15080544).
 
@@ -38,9 +38,12 @@ The dataset follows a structured format to facilitate **primary healthcare insti
 
 - **Urban-Rural Classification:**
   - Urban classification (`Urban`: 1 for urban, 0 for rural)
+  - Metropolitan classification (`Metropolitan`: 1 for Metropolitan, 0 for else)
+  - Seoul/other greater Seoul classification ('Seoul/other greater Seoul': 1 for Seoul, 2 for other greater Seoul, 0 for else)
+
 
 ### **Analysis Potential**
-The dataset is designed for **clinic operation/survival analysis**, with the **closure of clinics** serving as the event of interest. Researchers can use this dataset to investigate operational patterns across different primary healthcare institution types, regional disparities, and the impact of various healthcare resource factors.
+The dataset is designed for **primary care institution operation/survival analysis**, with the **closure of primary care institution** serving as the event of interest. Researchers can use this dataset to investigate operational patterns across different primary hhcare institution types, regional disparities, and the impact of various healthcare resource factors.
 
 
 ---
